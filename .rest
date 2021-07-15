@@ -1,0 +1,41 @@
+GET http://localhost:3000/actionsys/
+Content-Type: application/json
+###
+
+POST http://localhost:3000/actionsys/
+Content-Type: application/json
+
+{
+    "name": "emp.name",
+    "email": "emp.email",
+    "birth_date": "1990-05-23",
+    "admission_date": "1990-05-23",
+    "sector": "ENGENHARIA",
+    "position": "ENGENHEIRO",
+    "level": "PLENO"
+}
+
+###
+DELETE http://localhost:3000/actionsys/1
+Content-Type: application/json
+###
+
+
+PATCH http://localhost:3000/actionsys/2
+Content-Type: application/json
+
+{   
+    "name": "NEW",
+    "email": "emp.email",
+    "birth_date": "1991-05-23",
+    "admission_date": "1994-05-23",
+    "sector": "ENGENHARIA",
+    "position": "ENGENHEIRO",
+    "level": "PLENO",
+    "insert_date":"1992-05-23",
+    "update_date":"1993-05-23"
+}
+
+###
+
+
