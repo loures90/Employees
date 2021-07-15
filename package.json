@@ -1,7 +1,7 @@
 {
-  "name": "lama-template",
+  "name": "actionsys",
   "version": "1.0.0",
-  "description": "Template para o projeto LAMA",
+  "description": "ActionSys",
   "main": "index.js",
   "scripts": {
     "test": "clear && echo \"Running tests...\" && jest",
