@@ -1,6 +1,6 @@
 # Employees
 
-API of a table of Employees.
+API of Employees of a fake company.
 
 ## API:
 
